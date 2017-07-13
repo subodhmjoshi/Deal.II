@@ -1,0 +1,44 @@
+____________________________________________________________________________________________________
+WHAT:
+
+This example shows classic Lagrange interpolation using dealII.
+A function is defined at 'm' points . The function value is approximated at 'n' points, different 
+from 'm' known points. 
+
+The 'm' known points are called as sampling points and 
+the 'n' unknown points are called as interpolation points.
+
+Currently Gauss Lagrange points are implemented. Lobatto and Chebichev points are next line line.
+
+____________________________________________________________________________________________________
+WHY:
+
+This tutorial gives a clear idea about dealII functional spaces, polynomials, iterators and workflow.
+Only a few important features of dealII used in this tutorial, thus better understanding and less 
+confusion.
+Basic c++ classes used. Great for beginners. 
+
+____________________________________________________________________________________________________
+OTHER RESOURCES:
+
+1. DealII tutorial programs (https://www.dealii.org/8.4.0/doxygen/deal.II/Tutorial.html)
+2. CFD codes given on Dr. Praveen Chandrashekar's website (http://cpraveen.github.io/codes.html)
+3. Video lectures of Dr. Wolfgang Bangerth (http://www.math.colostate.edu/~bangerth/videos.html)
+
+____________________________________________________________________________________________________
+TO RUN:
+____________________________________________________________________________________________________
+No.       command	 	Action                    Effect 			       
+____________________________________________________________________________________________________
+1.                           install deal.ii              you get DealII !                            
+2.    cmake .                press enter                  extract                                
+3.    make 		     press enter                  compile 		               
+4.    ./interpolation	     press enter                  run  			       
+5.    make distclean         press enter                  clean the folder                          
+____________________________________________________________________________________________________
+____________________________________________________________________________________________________
+FUTURE WORK:
+
+1. Error computation based on the exact and numerical solutions
+2. Implementation of the Chebichev and Lobatto points
+3. Automated Error-plotting routine
