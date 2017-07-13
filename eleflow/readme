@@ -1,0 +1,42 @@
+_________________________________________________________________________________________________
+WHAT:
+
+This python code helps in visualization of elementary flows i.e. inviscid, incompressible and 
+irrotational fluid flow.
+The user can place several elementary flows in a square domain [0,1] X [0,1]. 
+Following elementary structures are supported:
+1. sources and sinks
+2. uniform flow
+3. Doublet 
+4. Vortex 
+
+More complex flow patterns can be generated through superposition of several elementary flows.
+e.g. a source and a sink can be placed very close to one onother to simulate a doublet. 
+Similarly, two sources can be used to simulate wall effects etc.
+
+
+_________________________________________________________________________________________________
+WHY:
+
+This code was written as a tool to visualize elementary flows. Elementary flows are simple to 
+manipulate, yet present a very powerful toolbox for understanding the flow physics. Elementary
+flow structures are used to derive many important theories in aerodynamics. 
+This code gives user an ability to play with the elementary flow structures.
+_________________________________________________________________________________________________
+OTHER RESOURCES:
+
+1. Fundamentals of Aerodynamics (by John D. Anderson Jr.) 
+
+_________________________________________________________________________________________________
+TO RUN:
+_________________________________________________________________________________________________
+No.       command	 	Action                    Effect 			       
+_________________________________________________________________________________________________
+1.   python eleflow.py          enter              Runs the code. Follow instructions            
+2.   paraview eleflow.vtk       enter              Opens paraview 
+3.                            Click apply          Ready!
+_________________________________________________________________________________________________
+_________________________________________________________________________________________________
+FUTURE WORK:
+
+1. Add vortex structure
