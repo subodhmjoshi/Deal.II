@@ -1,4 +1,4 @@
-____________________________________________________________________________________________________
+_________________________________________________________________________________________________
 WHAT:
 
 This example shows classic Lagrange interpolation using dealII.
@@ -10,7 +10,7 @@ the 'n' unknown points are called as interpolation points.
 
 Currently Gauss Lagrange points are implemented. Lobatto and Chebichev points are next line line.
 
-____________________________________________________________________________________________________
+_________________________________________________________________________________________________
 WHY:
 
 This tutorial gives a clear idea about dealII functional spaces, polynomials, iterators and workflow.
@@ -18,25 +18,25 @@ Only a few important features of dealII used in this tutorial, thus better under
 confusion.
 Basic c++ classes used. Great for beginners. 
 
-____________________________________________________________________________________________________
+_________________________________________________________________________________________________
 OTHER RESOURCES:
 
 1. DealII tutorial programs (https://www.dealii.org/8.4.0/doxygen/deal.II/Tutorial.html)
 2. CFD codes given on Dr. Praveen Chandrashekar's website (http://cpraveen.github.io/codes.html)
 3. Video lectures of Dr. Wolfgang Bangerth (http://www.math.colostate.edu/~bangerth/videos.html)
 
-____________________________________________________________________________________________________
+_________________________________________________________________________________________________
 TO RUN:
-____________________________________________________________________________________________________
+_________________________________________________________________________________________________
 No.       command	 	Action                    Effect 			       
-____________________________________________________________________________________________________
+_________________________________________________________________________________________________
 1.                           install deal.ii              you get DealII !                            
 2.    cmake .                press enter                  extract                                
 3.    make 		     press enter                  compile 		               
 4.    ./interpolation	     press enter                  run  			       
 5.    make distclean         press enter                  clean the folder                          
-____________________________________________________________________________________________________
-____________________________________________________________________________________________________
+_________________________________________________________________________________________________
+_________________________________________________________________________________________________
 FUTURE WORK:
 
 1. Error computation based on the exact and numerical solutions
