@@ -8,6 +8,5 @@ The Neighbors are found based on Voronoi diagram (also provided by Triangle)
 
 Refer grid.py for implementation.
 
-The code is currently poorly documented due to  procrastination.
-
+The code is currently poorly documented as of now. To be sorted out.
 
