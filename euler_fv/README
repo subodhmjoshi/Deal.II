@@ -1,0 +1,13 @@
+This is a simple 2D unstructed Euler solver. To run:
+$python Run.py
+
+More complex problems can be constructed by changing .poly file.
+Refer Triangle software documentation for the details. 
+
+The Neighbors are found based on Voronoi diagram (also provided by Triangle)
+
+Refer grid.py for implementation.
+
+The code is currently poorly documented due to  procrastination.
+
+
